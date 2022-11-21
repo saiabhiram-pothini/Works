@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      .profile {
+        padding: 72px;
+      }
+      .part {
+        border-bottom: 2px solid grey;
+      }
+      .part p {
+        margin-top: 32px;
+        font-size: 18px;
+      }
+      .info {
+        padding: 48px 0;
+      }
+      .info h2 {
+        font-size: 32px;
+      }
+      .info p {
+        font-size: 24px;
+        margin-top: 28px;
+        line-height: 1.4;
+      }
+      .info ol {
+        font-size: 20px;
+        margin-top: 28px;
+      }
+      h1 {
+        font-size: 96px;
+      }
+      .image {
+        display: flex;
+        align-items: center;
+        justify-content: right;
+      }
+      img {
+        border: 2px solid black;
+      }
+      body {
+        position: relative; 
+      }
+      #acadamics {
+        padding-top:75px;
+        height:1000px
+      }
+      #technicals {
+        padding-top:75px;
+        height:1000px
+      }
+      #projects {
+        padding-top:75px;
+        height:1000px
+      }
+      #achievements {
+        padding-top:75px;
+        height:1000px
+      }
+      #aboutme {
+        padding-top:75px;
+        height:1000px
+      }
+          
+      .acadamic h2 {
+        margin-bottom: 5%;
+      }
+      .skill{
+        border:1px solid black;
+        padding:12px 24px;
+      }
+     
+
+      
+    </style>
+    <title>Sai Abhi Ram</title>
+  </head>
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <nav class="navbar navbar-expand-sm fixed-top navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
+          <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5ZM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5 5 5Z"/>
+        </svg></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbar1"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar1">
+          <ul class="navbar-nav nav nav-fill w-100">
+            <li class="nav-item">
+              <a class="nav-link active" href="#acadamics"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-list-stars" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M5 11.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5z"/>
+                <path d="M2.242 2.194a.27.27 0 0 1 .516 0l.162.53c.035.115.14.194.258.194h.551c.259 0 .37.333.164.493l-.468.363a.277.277 0 0 0-.094.3l.173.569c.078.256-.213.462-.423.3l-.417-.324a.267.267 0 0 0-.328 0l-.417.323c-.21.163-.5-.043-.423-.299l.173-.57a.277.277 0 0 0-.094-.299l-.468-.363c-.206-.16-.095-.493.164-.493h.55a.271.271 0 0 0 .259-.194l.162-.53zm0 4a.27.27 0 0 1 .516 0l.162.53c.035.115.14.194.258.194h.551c.259 0 .37.333.164.493l-.468.363a.277.277 0 0 0-.094.3l.173.569c.078.255-.213.462-.423.3l-.417-.324a.267.267 0 0 0-.328 0l-.417.323c-.21.163-.5-.043-.423-.299l.173-.57a.277.277 0 0 0-.094-.299l-.468-.363c-.206-.16-.095-.493.164-.493h.55a.271.271 0 0 0 .259-.194l.162-.53zm0 4a.27.27 0 0 1 .516 0l.162.53c.035.115.14.194.258.194h.551c.259 0 .37.333.164.493l-.468.363a.277.277 0 0 0-.094.3l.173.569c.078.255-.213.462-.423.3l-.417-.324a.267.267 0 0 0-.328 0l-.417.323c-.21.163-.5-.043-.423-.299l.173-.57a.277.277 0 0 0-.094-.299l-.468-.363c-.206-.16-.095-.493.164-.493h.55a.271.271 0 0 0 .259-.194l.162-.53z"/>
+              </svg> Acadamics</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#technicals"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-android" viewBox="0 0 16 16">
+                <path d="M2.76 3.061a.5.5 0 0 1 .679.2l1.283 2.352A8.94 8.94 0 0 1 8 5a8.94 8.94 0 0 1 3.278.613l1.283-2.352a.5.5 0 1 1 .878.478l-1.252 2.295C14.475 7.266 16 9.477 16 12H0c0-2.523 1.525-4.734 3.813-5.966L2.56 3.74a.5.5 0 0 1 .2-.678ZM5 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm6 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z"/>
+              </svg> Technical Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-people" viewBox="0 0 16 16">
+                <path d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1h8Zm-7.978-1A.261.261 0 0 1 7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002a.274.274 0 0 1-.014.002H7.022ZM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0ZM6.936 9.28a5.88 5.88 0 0 0-1.23-.247A7.35 7.35 0 0 0 5 9c-4 0-5 3-5 4 0 .667.333 1 1 1h4.216A2.238 2.238 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816ZM4.92 10A5.493 5.493 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275ZM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0Zm3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4Z"/>
+              </svg> Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#achievements"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-award" viewBox="0 0 16 16">
+                <path d="M9.669.864 8 0 6.331.864l-1.858.282-.842 1.68-1.337 1.32L2.6 6l-.306 1.854 1.337 1.32.842 1.68 1.858.282L8 12l1.669-.864 1.858-.282.842-1.68 1.337-1.32L13.4 6l.306-1.854-1.337-1.32-.842-1.68L9.669.864zm1.196 1.193.684 1.365 1.086 1.072L12.387 6l.248 1.506-1.086 1.072-.684 1.365-1.51.229L8 10.874l-1.355-.702-1.51-.229-.684-1.365-1.086-1.072L3.614 6l-.25-1.506 1.087-1.072.684-1.365 1.51-.229L8 1.126l1.356.702 1.509.229z"/>
+                <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z"/>
+              </svg> Achievements</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#aboutme"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+              </svg> Contact me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container-fluid profile">
+      <div class="row">
+        <div class="col-sm-9">
+          <div class="part">
+            <h1>SAI ABHI RAM</h1>
+            <p>Enterprenuer, Technology-Lover, Enthusiast, Philanthropist</p>
+            
+          </div>
+          <div class="info">
+            <h2>Career Objectives</h2>
+            <p>
+              Pursuing a responsible career in Artificial Intelligence and
+              learning new things about techonology every day which can make me
+              a better human and a good professional.
+            </p>
+            <h2>Extra Intrests</h2>
+            <ol>
+              <li>Machine Leaning</li>
+              <li>Block Chain Technologies</li>
+              <li>Cyber Security</li>
+            </ol>
+            <blockquote>
+              <p style="font-size:18px"><em>"You are the only one responsible for your failure,rather than success"</em></p>
+              <footer>-Sai Abhi Ram</footer>
+            </blockquote>
+          </div>
+        </div>
+        <div class="col-sm-3 image">
+          <img
+            src="ProfilePic.jpg"
+            class="img-responsive rounded-circle"
+            width="100%"
+            height="auto"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="container acadamic" id="acadamics">
+      <h2 class="text-center">Acadamic Information</h2>
+
+      <table
+        class="table table-responsive table-striped"
+        style="width: 100%; height: auto"
+      >
+        <thead>
+          <tr>
+            <th>Course Details</th>
+            <th>Institution</th>
+            <th>University/Board</th>
+            <th>Year of passing</th>
+            <th>CGPA</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>Bachelor of Technology(Computer Science)</th>
+            <td>Keshav Memorial Institute of Technology</td>
+            <td>JNTUH</td>
+            <td>2025</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <th>Intermediate-MPC</th>
+            <td>Narayana Junior College</td>
+            <td>BIEAP</td>
+            <td>2021</td>
+            <td>94.9%</td>
+          </tr>
+          <tr>
+            <th>School of Secondary Cerficate</th>
+            <td>Montessori High School</td>
+            <td>SSC</td>
+            <td>2019</td>
+            <td>9.8</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="container tech-skills" id="technicals">
+      <h2 class="text-center" style="margin-bottom:5%">Technical Skills</h2>
+      <h3 class="pl" style="margin-bottom:5%">Programming Languages</h3>
+        <div class="row" align="center">
+          <div class="col-lg-4">
+          <p class="skill">C</p>
+          <p class="skill">C++</p>
+        </div>
+         
+        <div class="col-lg-4">
+          <p class="skill">Python</p>
+       
+          <p class="skill">Java</p>
+        </div>
+        <div class="col-lg-4">
+          <p class="skill">HTML</p>
+          <p class="skill">CSS</p>
+        </div>
+        </div>
+      </div>
+    </div>
+ 
+    <div class="container" id="projects">
+      <h2 class="text-center">Projects</h2>
+      <ol style="margin-top:5%">
+        <li style="font-size:20px">
+          Worked on a web based project called <mark>Omnifood </mark>to implement HTML5 and
+          CSS3
+        </li>
+        <li style="font-size:20px">Currently working on a project called New Spectrum</li>
+      </ol>
+    </div>
+    <div class="container" id="achievements">
+      <h2 class="text-center">Achievements</h2>
+      <ol style="margin-top:5%">
+        <li style="font-size:20px">
+          Participated in State Level Science Fair Competition and got selected as one of the best projects
+        </li>
+      </ol>
+</div>
+      <div class="container" id="aboutme">
+        <h2 class="text-center">About</h2>
+        <div style="font-size:36px;margin-top: 10%" class="text-center">
+          <span><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-telephone-inbound-fill" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511zM15.854.146a.5.5 0 0 1 0 .708L11.707 5H14.5a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5v-4a.5.5 0 0 1 1 0v2.793L15.146.146a.5.5 0 0 1 .708 0z"/>
+          </svg> <strong>+91 6303159202</strong></span>
+          
+        </div>
+        <div style="font-size:24px;margin-top: 2%" class="text-center" >
+          <span><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+          </svg> <strong>saiabhirampothini@gmail.com</strong></span>
+        </div>
+      </div>
+    </div>
+    
+  </body>
+</html>
